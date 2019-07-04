@@ -22,7 +22,7 @@
     <parent>
         <groupId>org.wso2.analytics.is</groupId>
         <artifactId>org.wso2.carbon.analytics.is.parent</artifactId>
-        <version>5.8.0-beta4-SNAPSHOT</version>
+        <version>5.8.0-m1-SNAPSHOT</version>
         <relativePath>../../pom.xml</relativePath>
     </parent>
 
@@ -1205,6 +1205,10 @@
                                 <feature>
                                     <id>org.wso2.carbon.cluster.coordinator.rdbms.feature.group</id>
                                     <version>${carbon.coordination.version}</version>
+                                </feature>
+                                <feature>
+                                    <id>org.wso2.carbon.sp.coordination.listener.feature.group</id>
+                                    <version>${carbon.analytics.version}</version>
                                 </feature>
 
                                 <!-- Distributed Resource feature -->
